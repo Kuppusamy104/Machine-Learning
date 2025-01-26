@@ -1,0 +1,36 @@
+Finding R2 score by split Train & Test Data using GridSearchCV:
+===========================================
+1.Multiple Linear Regression: .78
+
+The R_score value for best parameter {'copy_X': True, 'fit_intercept': True, 'n_jobs': None}:
+
+2.Support Vector Machine: 0.68 
+The R_score value for best parameter {'C': 2000, 'gamma': 'auto', 'kernel': 'linear'}:
+
+3.Decision Tree: 0.62 
+The R_score value for best parameter {'criterion': 'squared_error', 'max_features': 'sqrt', 'splitter': 'random'}:
+
+4.Random Forest: 0.87 
+The R_score value for best parameter {'criterion': 'friedman_mse', 'max_features': 'sqrt', 'n_estimators': 100}:
+
+
+
+
+Finding R2 score by With out split Train & Test Data using GridSearchCV:
+-------------------------------------------------------
+
+1.Multiple Linear Regression: 0.74 
+The R_score value for best parameter {'copy_X': True, 'fit_intercept': True, 'n_jobs': None}:
+
+2.Support Vector Machine: 0.71
+The R_score value for best parameter {'C': 1000, 'gamma': 'auto', 'kernel': 'linear'}:
+
+3.Decision Tree: 0.99
+The R_score value for best parameter {'criterion': 'absolute_error', 'max_features': 'log2', 'splitter': 'random'}:
+
+4.Random Forest: 0.97 
+The R_score value for best parameter {'criterion': 'friedman_mse', 'max_features': 'log2', 'n_estimators': 100}:
+
+================================================================
+Finally the best model is Decision Tree: 0.99 using GridSearchCV
+================================================================
